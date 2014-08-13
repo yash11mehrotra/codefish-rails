@@ -6,8 +6,8 @@ namespace :testingrake do
   	# rake db:migrate
   	# exec( "git status" )
   	# exec("rake db:drop")
-  	exec("rake db:migrate:status" )
-  	exec("rake db:migrate:status" )
+  	exec("rake db:migrate:status && rake db:migrate && rake assets:precompile")
+  	
   	# exec("rake assets:precompile")
   	puts "test1 task has been execued"
 exec( terminal )
