@@ -3,7 +3,7 @@ require "spec_helper"
 feature "Entering the Codeship" do
   scenario "User visits landing page" do
     visit root_path
-    expect(page).to have_text "I've entered the Codeship!"
+    expect(page).to have_text "I've entered the Codeship yash!"
   end
 
   scenario "User goes to the Codeship" do
