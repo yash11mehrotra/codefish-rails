@@ -1,5 +1,6 @@
 require "spec_helper"
 
+
 feature "Entering the Codeship" do
   scenario "User visits landing page" do
     visit root_path
